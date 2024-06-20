@@ -1,0 +1,63 @@
+name: flutter_clean_architecture_news_app
+
+description: "Developing a small application using clean architecture and 
+bloc centered around the concept of news."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  # UI
+  cupertino_icons: ^1.0.6
+  ionicons: ^0.2.2
+  # Networking
+  retrofit: ^4.1.0
+  dio: ^5.4.3+1
+  # State Management
+  flutter_bloc: ^8.1.6
+  # hooks
+  flutter_hooks: ^0.20.5
+  # service locator
+  get_it: ^7.7.0
+  # cache
+  floor: ^1.5.0
+  # value based equality
+  equatable: ^2.0.5
+  # flutter toast
+  oktoast: ^3.4.0
+  # log interceptor
+  awesome_dio_interceptor: ^1.2.0
+  # navigation
+  auto_route: ^8.2.0
+  bloc: ^8.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # lint
+  flutter_lints: ^3.0.0
+  lint: ^2.3.0
+  # generator
+  auto_route_generator: ^8.0.0
+  floor_generator: ^1.5.0
+  build_runner: ^2.4.11
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Butler
+      fonts:
+        - asset: assets/fonts/Butler_Bold.ttf
+        - asset: assets/fonts/Butler_Light.ttf
+        - asset: assets/fonts/Butler_Regular.ttf
+
+    - family: IBM
+      fonts:
+        - asset: assets/fonts/IBMPlexSans-Bold.ttf
+        - asset: assets/fonts/IBMPlexSans-Light.ttf
+        - asset: assets/fonts/IBMPlexSans-Regular.ttf
